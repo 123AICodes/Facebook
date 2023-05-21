@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Media - Responsive UI Design</title>
+
+
+  <!-- fontAwesome file link -->
+  <link rel="stylesheet" href="./css/all.min.css" type="text/css">
+  <!-- fontAwesome file link ends-->
+
+  <!-- aos css file link -->
+  <link rel="stylesheet" href="./css/aos.css" type="text/css">
+  <!-- aos css file link ends -->
+
+  <!-- swiper js css file link -->
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css" type="text/css">
+  <!-- swiper js css file link ends -->
+
+  <!-- custom css file link -->
+  <link rel="stylesheet" href="./css/style.css" type="text/css">
+  <!-- custom css file link ends -->
+
+
+</head>
+
+<body>
+
+  <!-- =================================navbar section================================= -->
+  <nav>
+    <div class="container">
+      <a href="" class="logo" style="color: var(--color-primary);">
+        <h2>aiMedia.</h2>
+      </a>
+      <div class="search__bar">
+        <i class="fa fa-search"></i>
+        <input type="search" name="" placeholder="search for inspirations, creators, entertainment and more...">
+      </div>
+      <div class="create">
+        <label for="create__post" class="btn btn__primary">create</label>
+        <div class="profile__photo"><img src="./images/profile-1.jpg" alt="profile"></div>
+      </div>
+    </div>
+  </nav>
+  <!-- =================================navbar section ends================================= -->
+
+
+  <!-- =================================MAIN SITE================================= -->
+  <main>
+
+
+    <div class="container">
+
+      <!-- ___________________left container___________________ -->
+      <div class="left">
+        <!-- _________profile_________ -->
+        <a class="profile">
+          <div class="profile__photo"><img src="./images/profile-1.jpg" alt="profile-img"></div>
+          <div class="handle">
+            <h4>Grace Armah</h4>
+            <p class="text__muted">@dayi</p>
+          </div>
+        </a>
+        <!-- _________profile ends_________ -->
+
+        <!-- ___________side bar______________ -->
+        <aside class="sidebar">
+          <a class="menu__item  nav-link active" id="navlink">
+            <span><i class="fas fa-home icon"></i></span>
+            <h3>Home</h3>
+          </a>
+          <a class="menu__item nav-link" id="navlink">
+            <span><i class="fas fa-compass icon"></i></span>
+            <h3>Explore</h3>
+          </a>
+          <a class="menu__item nav-link" id="notifications">
+            <span><i class="fas fa-bell icon"></i><small class="notification-count">6+</small></span>
+            <h3>Notifications</h3>
+            <!-- ___notification popup____ -->
+            <div class="notification-popup">
+
+              <div>
+                <div class="profile__photo"><img src="./images/profile-2.jpg" alt="img"></div>
+                <div class="notification-body">
+                  <b>Diana Arhen</b> accepted your friend request
+                  <small class="text__muted">2 DAYS AGO</small>
+                </div>
+              </div>
+
+              <div>
+                <div class="profile__photo"><img src="./images/profile-3.jpg" alt="img"></div>
+                <div class="notification-body">
+                  <b>Josephine Adams</b> accepted your friend request
+                  <small class="text__muted">2 HOURS AGO</small>
+                </div>
+              </div>
+
+              <div>
+                <div class="profile__photo"><img src="./images/profile-4.jpg" alt="img"></div>
+                <div class="notification-body">
+                  <b>Ernestina Jones</b> commented on your post
+                  <small class="text__muted">2 DAYS AGO</small>
+                </div>
+              </div>
+
+              <div>
+                <div class="profile__photo"><img src="./images/profile-5.jpg" alt="img"></div>
+                <div class="notification-body">
+                  <b>Valentina Borges</b> liked your post
+                  <small class="text__muted">1 HOUR AGO</small>
+                </div>
+              </div>
+
+              <div>
+                <div class="profile__photo"><img src="./images/profile-6.jpg" alt="img"></div>
+                <div class="notification-body">
+                  <b>Phiipa Johns</b> accepted your friend request
+                  <small class="text__muted">24 HOURS AGO</small>
+                </div>
+              </div>
+
+              <div>
+                <div class="profile__photo"><img src="./images/profile-7.jpg" alt="img"></div>
+                <div class="notification-body">
+                  <b>Beatrice Jennkins</b> commented on your post
+                  <small class="text__muted">2 DAYS AGO</small>
+                </div>
+              </div>
+
+            </div>
+            <!-- ___notification popup ends____ -->
+          </a>
+          <a class="menu__item nav-link" id="messages-notification">
+            <span><i class="fas fa-envelope icon"></i><small class="notification-count">4+</small></span>
+            <h3>Messages</h3>
+          </a>
+          <a class="menu__item nav-link">
+            <span><i class="fas fa-bookmark icon"></i></span>
+            <h3>Bookmarks</h3>
+          </a>
+          <a class="menu__item nav-link">
+            <span><i class="fas fa-bar-chart icon"></i></span>
+            <h3>Analytics</h3>
+          </a>
+          <a class="menu__item nav-link" id="theme">
+            <span><i class="fas fa-palette icon"></i></span>
+            <h3>Theme</h3>
+          </a>
+          <a class="menu__item nav-link">
+            <span><i class="fa fa-tools icon"></i></span>
+            <h3>Settings</h3>
+          </a>
+        </aside>
+        <!-- ___________side bar ends______________ -->
+        <label for="create__post" class="btn btn__primary">Create Post</label>
+      </div>
+      <!-- ___________________left container ends___________________ -->
+
+
+
+
+      <!-- ___________________middle container___________________ -->
+      <div class="middle">
+        <!-- ___________stories______________ -->
+        <div class="stories">
+
+          <div class="story">
+            <div class="profile__photo"><img src="./images/profile-8.jpg" alt="img"></div>
+            <p class="name">Jonas Brends</p>
+          </div>
+
+          <div class="story">
+            <div class="profile__photo"><img src="./images/profile-9.jpg" alt="img"></div>
+            <p class="name">Leila Jane</p>
+          </div>
+
+          <div class="story">
+            <div class="profile__photo"><img src="./images/profile-10.jpg" alt="img"></div>
+            <p class="name">Tilda Stacks</p>
+          </div>
+
+          <div class="story">
+            <div class="profile__photo"><img src="./images/profile-11.jpg" alt="img"></div>
+            <p class="name">Jeremy Patts</p>
+          </div>
+
+          <div class="story">
+            <div class="profile__photo"><img src="./images/profile-12.jpg" alt="img"></div>
+            <p class="name">Selma Dinkins</p>
+          </div>
+
+          <div class="story">
+            <div class="profile__photo"><img src="./images/profile-13.jpg" alt="img"></div>
+            <p class="name">Grace Walden</p>
+          </div>
+
+        </div>
+        <!-- ___________stories ends______________ -->
+        <form class="create__post">
+          <div class="profile__photo"><img src="./images/profile-1.jpg" alt="img"></div>
+          <input type="text" placeholder="what's on your mind?" id="create__post">
+          <input type="submit" value="Post" class="btn btn__primary">
+        </form>
+
+        <!-- ___________feeds______________ -->
+        <div class="feeds">
+
+          <div class="feed">
+            <div class="head">
+              <div class="user">
+                <div class="profile__photo"><img src="./images/profile-13.jpg" alt="feed-img"></div>
+                <div class="info">
+                  <h3>Grace Walden</h3><small>Dubai, 30 MINUTES AGO</small>
+                </div>
+              </div>
+              <span class="edit"><i class="fas fa-ellipsis icon"></i></span>
+            </div>
+            <div class="photo"><img src="./images/feed-1.jpg" alt="img"></div>
+            <div class="action-button">
+              <div class="interaction__btn">
+                <span><i class="far fa-heart icon"></i></span>
+                <span><i class="far fa-comment icon"></i></span>
+                <span><i class="fas fa-share-alt icon"></i></span>
+              </div>
+              <div class="bookmark__btn">
+                <span><i class="far fa-bookmark icon"></i></span>
+              </div>
+            </div>
+            <div class="liked-by">
+              <span><img src="./images/profile-10.jpg"></span>
+              <span><img src="./images/profile-15.jpg"></span>
+              <span><img src="./images/profile-4.jpg"></span>
+              <p>Liked by <b>AICL Inc.</b> and <b>2,341 others</b></p>
+            </div>
+            <div class="caption">
+              <p>
+                <b>Lina Rose</b> Lorem ipsum dolor sit amet consectetur.
+                <span class="hash__tag">#lifestyle</span>
+              </p>
+            </div>
+            <div class="text__muted comments">view all 277 comments</div>
+          </div>
+
+          <div class="feed">
+            <div class="head">
+              <div class="user">
+                <div class="profile__photo"><img src="./images/profile-11.jpg" alt="feed-img"></div>
+                <div class="info">
+                  <h3>Jeremy Patts</h3><small>Manchester, 45 MINUTES AGO</small>
+                </div>
+              </div>
+              <span class="edit"><i class="fas fa-ellipsis icon"></i></span>
+            </div>
+            <div class="photo"><img src="./images/feed-7.jpg" alt="img"></div>
+            <div class="action-button">
+              <div class="interaction__btn">
+                <span><i class="far fa-heart icon"></i></span>
+                <span><i class="far fa-comment icon"></i></span>
+                <span><i class="fas fa-share-alt icon"></i></span>
+              </div>
+              <div class="bookmark__btn">
+                <span><i class="far fa-bookmark icon"></i></span>
+              </div>
+            </div>
+            <div class="liked-by">
+              <span><img src="./images/profile-10.jpg"></span>
+              <span><img src="./images/profile-15.jpg"></span>
+              <span><img src="./images/profile-4.jpg"></span>
+              <p>Liked by <b>The New Tech.</b> and <b>1,341 others</b></p>
+            </div>
+            <div class="caption">
+              <p>
+                <b>Kaezie Love</b> Lorem ipsum dolor sit amet consectetur.
+                <span class="hash__tag">#technology</span>
+              </p>
+            </div>
+            <div class="text__muted comments">view all 277 comments</div>
+          </div>
+
+          <div class="feed">
+            <div class="head">
+              <div class="user">
+                <div class="profile__photo"><img src="./images/profile-10.jpg" alt="feed-img"></div>
+                <div class="info">
+                  <h3>Tilda Stacks</h3><small>USA, 1 HOUR AGO</small>
+                </div>
+              </div>
+              <span class="edit"><i class="fas fa-ellipsis icon"></i></span>
+            </div>
+            <div class="photo"><img src="./images/feed-3.jpg" alt="img"></div>
+            <div class="action-button">
+              <div class="interaction__btn">
+                <span><i class="far fa-heart icon"></i></span>
+                <span><i class="far fa-comment icon"></i></span>
+                <span><i class="fas fa-share-alt icon"></i></span>
+              </div>
+              <div class="bookmark__btn">
+                <span><i class="far fa-bookmark icon"></i></span>
+              </div>
+            </div>
+            <div class="liked-by">
+              <span><img src="./images/profile-10.jpg"></span>
+              <span><img src="./images/profile-15.jpg"></span>
+              <span><img src="./images/profile-4.jpg"></span>
+              <p>Liked by <b>Teddy Decor.</b> and <b>841 others</b></p>
+            </div>
+            <div class="caption">
+              <p>
+                <b>Tim Carl</b> Lorem ipsum dolor sit amet consectetur.
+                <span class="hash__tag">#lifestyle</span>
+              </p>
+            </div>
+            <div class="text__muted comments">view all 77 comments</div>
+          </div>
+
+          <div class="feed">
+            <div class="head">
+              <div class="user">
+                <div class="profile__photo"><img src="./images/profile-8.jpg" alt="feed-img"></div>
+                <div class="info">
+                  <h3>Jonas Brends</h3><small>Canada, 1hr 30 MINUTES AGO</small>
+                </div>
+              </div>
+              <span class="edit"><i class="fas fa-ellipsis icon"></i></span>
+            </div>
+            <div class="photo"><img src="./images/feed-4.jpg" alt="img"></div>
+            <div class="action-button">
+              <div class="interaction__btn">
+                <span><i class="far fa-heart icon"></i></span>
+                <span><i class="far fa-comment icon"></i></span>
+                <span><i class="fas fa-share-alt icon"></i></span>
+              </div>
+              <div class="bookmark__btn">
+                <span><i class="far fa-bookmark icon"></i></span>
+              </div>
+            </div>
+            <div class="liked-by">
+              <span><img src="./images/profile-10.jpg"></span>
+              <span><img src="./images/profile-15.jpg"></span>
+              <span><img src="./images/profile-4.jpg"></span>
+              <p>Liked by <b>Tilda.</b> and <b>341 others</b></p>
+            </div>
+            <div class="caption">
+              <p>
+                <b>Kate Simms</b> Lorem ipsum dolor sit amet consectetur.
+                <span class="hash__tag">#family</span>
+              </p>
+            </div>
+            <div class="text__muted comments">view all 107 comments</div>
+          </div>
+
+          <div class="feed">
+            <div class="head">
+              <div class="user">
+                <div class="profile__photo"><img src="./images/profile-7.jpg" alt="feed-img"></div>
+                <div class="info">
+                  <h3>Snadra Philly</h3><small>Florida, 1hr 50 MINUTES AGO</small>
+                </div>
+              </div>
+              <span class="edit"><i class="fas fa-ellipsis icon"></i></span>
+            </div>
+            <div class="photo"><img src="./images/feed-5.jpg" alt="img"></div>
+            <div class="action-button">
+              <div class="interaction__btn">
+                <span><i class="far fa-heart icon"></i></span>
+                <span><i class="far fa-comment icon"></i></span>
+                <span><i class="fas fa-share-alt icon"></i></span>
+              </div>
+              <div class="bookmark__btn">
+                <span><i class="far fa-bookmark icon"></i></span>
+              </div>
+            </div>
+            <div class="liked-by">
+              <span><img src="./images/profile-10.jpg"></span>
+              <span><img src="./images/profile-15.jpg"></span>
+              <span><img src="./images/profile-4.jpg"></span>
+              <p>Liked by <b>MKD Muzik.</b> and <b>1,941 others</b></p>
+            </div>
+            <div class="caption">
+              <p>
+                <b>Timothy Trens</b> Lorem ipsum dolor sit amet consectetur.
+                <span class="hash__tag">#music</span>
+              </p>
+            </div>
+            <div class="text__muted comments">view all 237 comments</div>
+          </div>
+
+          <div class="feed">
+            <div class="head">
+              <div class="user">
+                <div class="profile__photo"><img src="./images/profile-17.jpg" alt="feed-img"></div>
+                <div class="info">
+                  <h3>Maureen Jeremy</h3><small>Germany, 1hr 45 MINUTES AGO</small>
+                </div>
+              </div>
+              <span class="edit"><i class="fas fa-ellipsis icon"></i></span>
+            </div>
+            <div class="photo"><img src="./images/feed-6.jpg" alt="img"></div>
+            <div class="action-button">
+              <div class="interaction__btn">
+                <span><i class="far fa-heart icon"></i></span>
+                <span><i class="far fa-comment icon"></i></span>
+                <span><i class="fas fa-share-alt icon"></i></span>
+              </div>
+              <div class="bookmark__btn">
+                <span><i class="far fa-bookmark icon"></i></span>
+              </div>
+            </div>
+            <div class="liked-by">
+              <span><img src="./images/profile-10.jpg"></span>
+              <span><img src="./images/profile-15.jpg"></span>
+              <span><img src="./images/profile-4.jpg"></span>
+              <p>Liked by <b>AICL Inc.</b> and <b>1841 others</b></p>
+            </div>
+            <div class="caption">
+              <p>
+                <b>Tim Carl</b> Lorem ipsum dolor sit amet consectetur.
+                <span class="hash__tag">#technology</span>
+              </p>
+            </div>
+            <div class="text__muted comments">view all 377 comments</div>
+          </div>
+
+          <div class="feed">
+            <div class="head">
+              <div class="user">
+                <div class="profile__photo"><img src="./images/profile-5.jpg" alt="feed-img"></div>
+                <div class="info">
+                  <h3>Franka Mends</h3><small>USA, 2 HOURS AGO</small>
+                </div>
+              </div>
+              <span class="edit"><i class="fas fa-ellipsis icon"></i></span>
+            </div>
+            <div class="photo"><img src="./images/feed-2.jpg" alt="img"></div>
+            <div class="action-button">
+              <div class="interaction__btn">
+                <span><i class="far fa-heart icon"></i></span>
+                <span><i class="far fa-comment icon"></i></span>
+                <span><i class="fas fa-share-alt icon"></i></span>
+              </div>
+              <div class="bookmark__btn">
+                <span><i class="far fa-bookmark icon"></i></span>
+              </div>
+            </div>
+            <div class="liked-by">
+              <span><img src="./images/profile-10.jpg"></span>
+              <span><img src="./images/profile-15.jpg"></span>
+              <span><img src="./images/profile-4.jpg"></span>
+              <p>Liked by <b>Jennifer Lopez.</b> and <b>2541 others</b></p>
+            </div>
+            <div class="caption">
+              <p>
+                <b>Kate Simms</b> Lorem ipsum dolor sit amet consectetur.
+                <span class="hash__tag">#love</span>
+              </p>
+            </div>
+            <div class="text__muted comments">view all 107 comments</div>
+          </div>
+
+        </div>
+        <!-- ___________feeds ends______________ -->
+
+      </div>
+      <!-- ___________________middle container ends___________________ -->
+
+
+
+
+
+      <!-- ___________________right container___________________ -->
+      <div class="right">
+
+        <div class="messages">
+
+          <div class="heading">
+            <h4>Messages</h4><i class="far fa-edit icon"></i>
+          </div>
+
+          <div class="search__bar">
+            <i class="fa fa-search"></i>
+            <input style="color: var(--color-primary)" type="search" name="" placeholder="search for messages" id="message-search" class="msg__search">
+          </div>
+
+          <div class="category">
+            <h6 class="active">Primary</h6>
+            <h6>General</h6>
+            <h6 class="message__requests">Requests(6)</h6>
+          </div>
+
+          <div class="message">
+            <div class="profile__photo">
+              <img src="./images/profile-17.jpg">
+              <div class="active"></div>
+            </div>
+            <div class="message__body">
+              <h5>Franca Quaye</h5>
+              <p class="text__muted">Just woke up bruh.</p>
+            </div>
+          </div>
+          <div class="message">
+            <div class="profile__photo"><img src="./images/profile-19.jpg"></div>
+            <div class="message__body">
+              <h5>Jordan Fryer</h5>
+              <p class="text__bold">alright</p>
+            </div>
+          </div>
+
+          <div class="message">
+            <div class="profile__photo">
+              <img src="./images/profile-16.jpg">
+              <div class="active"></div>
+            </div>
+            <div class="message__body">
+              <h5>Sheldon Jnr</h5>
+              <p class="text__muted">ok</p>
+            </div>
+          </div>
+
+          <div class="message">
+            <div class="profile__photo"><img src="./images/profile-18.jpg"></div>
+            <div class="message__body">
+              <h5>Kwesi Jan</h5>
+              <p class="text__bodl">whatsup.</p>
+            </div>
+          </div>
+
+          <div class="message">
+            <div class="profile__photo">
+              <img src="./images/avatar3.jpg">
+              <div class="active"></div>
+            </div>
+            <div class="message__body">
+              <h5>Sheldon Jnr</h5>
+              <p class="text__muted">ok</p>
+            </div>
+          </div>
+
+          <div class="message">
+            <div class="profile__photo"><img src="./images/profile-5.jpg"></div>
+            <div class="message__body">
+              <h5>Kwesi Jan</h5>
+              <p class="text__bodl">whatsup.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="friend__request">
+          <h4>Requests</h4>
+
+          <div class="request">
+            <div class="info">
+              <div class="profile__photo"><img src="./images/avatar1.jpg"></div>
+              <div>
+                <h5>Naomi Anim</h5>
+                <p class="text__muted">10 mutual friends</p>
+              </div>
+            </div>
+            <div class="action">
+              <button class="btn btn__primary">Accept</button>
+              <button class="btn">Decline</button>
+            </div>
+          </div>
+
+          <div class="request">
+            <div class="info">
+              <div class="profile__photo"><img src="./images/avatar4.jpg"></div>
+              <div>
+                <h5>Salima Alima</h5>
+                <p class="text__muted">6 mutual friends</p>
+              </div>
+            </div>
+            <div class="action">
+              <button class="btn btn__primary">Accept</button>
+              <button class="btn">Decline</button>
+            </div>
+          </div>
+
+          <div class="request">
+            <div class="info">
+              <div class="profile__photo"><img src="./images/avatar2.jpg"></div>
+              <div>
+                <h5>Kudjoe Prince</h5>
+                <p class="text__muted">2 mutual friends</p>
+              </div>
+            </div>
+            <div class="action">
+              <button class="btn btn__primary">Accept</button>
+              <button class="btn">Decline</button>
+            </div>
+          </div>
+
+          <div class="request">
+            <div class="info">
+              <div class="profile__photo"><img src="./images/tm1.jpg"></div>
+              <div>
+                <h5>David Adom</h5>
+                <p class="text__muted">4 mutual friends</p>
+              </div>
+            </div>
+            <div class="action">
+              <button class="btn btn__primary">Accept</button>
+              <button class="btn">Decline</button>
+            </div>
+          </div>
+
+          <div class="request">
+            <div class="info">
+              <div class="profile__photo"><img src="./images/tm4.jpg"></div>
+              <div>
+                <h5>Godwin</h5>
+                <p class="text__muted">2 mutual friends</p>
+              </div>
+            </div>
+            <div class="action">
+              <button class="btn btn__primary">Accept</button>
+              <button class="btn">Decline</button>
+            </div>
+          </div>
+
+
+
+        </div>
+
+      </div>
+      <!-- ___________________right container ends___________________ -->
+    </div>
+
+  </main>
+  <!-- =================================MAIN SITE ENDS============================ -->
+
+  <!-- =================================THEME CUSTOMIZATION================================= -->
+  <div class="customize__theme">
+    <div class="card">
+      <h2>Customize Your View</h2>
+      <p class="text__muted">Manage font size, color, and background</p>
+
+      <div class="font__size">
+        <h4>Font Size</h4>
+        <div>
+          <h6>Aa</h6>
+          <div class="choose__size">
+            <span class="font-size-1 active"></span>
+            <span class="font-size-2"></span>
+            <span class="font-size-3"></span>
+            <span class="font-size-4"></span>
+            <span class="font-size-5"></span>
+          </div>
+          <h3>Aa</h3>
+        </div>
+      </div>
+
+      <div class="color">
+        <h4>Color</h4>
+        <div class="choose__color">
+          <span class="color-1 active"></span>
+          <span class="color-2"></span>
+          <span class="color-3"></span>
+          <span class="color-4"></span>
+          <span class="color-5"></span>
+        </div>
+      </div>
+
+      <div class="background">
+        <h4>Background</h4>
+        <div class="choose__bg">
+
+          <div class="bg-1 active">
+            <span></span>
+            <h5 for="bg-1">Light</h5>
+          </div>
+
+          <div class="bg-2">
+            <span></span>
+            <h5 for="bg-2">Dim</h5>
+          </div>
+
+          <div class="bg-3">
+            <span></span>
+            <h5 for="bg-3">Light Out</h5>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- =================================THEME CUSTOMIZATION ENDS================================= -->
+
+
+
+
+
+
+
+
+
+
+  <!-- fontAwesome js file link-->
+  <script src="./js/all.min.js" type="text/javascript"></script>
+  <!-- fontAwesome js file link ends-->
+
+  <!-- aos js file link -->
+  <script src="./js/aos.js" type="text/javascript"></script>
+  <!-- aos js file link ends -->
+
+  <!-- swiper js file link -->
+  <script src="./js/swiper-bundle.min.js" type="text/javascript"></script>
+  <!-- swiper js file link ends -->
+
+  <!-- custom js file link -->
+  <script src="./js/main.js" type="text/javascript"></script>
+  <!-- custom js file link ends -->
+
+</body>
+
+</html>
